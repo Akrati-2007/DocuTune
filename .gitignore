@@ -1,0 +1,23 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Hugging Face cache
+.cache/
+.cache_huggingface/
+
+# Model checkpoints
+*.bin
+*.safetensors
+
+# OS files
+.DS_Store
+Thumbs.db
+
+results/baseline/checkpoint-*/

@@ -1,0 +1,17 @@
+{
+    "model": "distilbert-base-uncased",
+    "training_method": "Full Fine-Tuning",
+    "total_parameters": 66955779,
+    "trainable_parameters": 66955779,
+    "trainable_percentage": 100.0,
+    "train_samples": 1728,
+    "validation_samples": 370,
+    "test_samples": 371,
+    "max_length": 256,
+    "epochs": 3,
+    "batch_size": 8,
+    "learning_rate": 2e-05,
+    "test_accuracy": 1.0,
+    "test_macro_f1": 1.0,
+    "training_time_seconds": 4676.25
+}
