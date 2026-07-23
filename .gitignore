@@ -1,5 +1,6 @@
 # Virtual environment
 venv/
+.venv/
 
 # Python cache
 __pycache__/
@@ -11,13 +12,18 @@ __pycache__/
 # Hugging Face cache
 .cache/
 .cache_huggingface/
+huggingface_cache/
 
-# Model checkpoints
+# Model checkpoints and weights
 *.bin
 *.safetensors
+*.pt
+*.pth
+
+# Generated model checkpoints
+results/baseline/
+results/lora_checkpoints/
 
 # OS files
 .DS_Store
 Thumbs.db
-
-results/baseline/checkpoint-*/
